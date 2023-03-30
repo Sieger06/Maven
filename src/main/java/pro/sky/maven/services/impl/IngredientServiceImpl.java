@@ -9,7 +9,6 @@ import java.util.Map;
 
 @Service
 public class IngredientServiceImpl implements IngredientService {
-
     private final Map<Integer, Ingredient> ingredientMap = new HashMap<>();
     private int countId = 1;
     @Override
@@ -18,7 +17,6 @@ public class IngredientServiceImpl implements IngredientService {
         ingredientMap.put(id, ingredient);
         return id;
     }
-
     @Override
     public Ingredient getIngredient(int id) {
         return ingredientMap.get(id);
