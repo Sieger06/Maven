@@ -19,8 +19,4 @@ public class RecipeController {
     public String putRecipe (@RequestBody Recipe recipe){
         return "Рецепт успешно добавлен (ID: " + recipeService.putRecipe(recipe) + ")";
     }
-
-
-
 }
-

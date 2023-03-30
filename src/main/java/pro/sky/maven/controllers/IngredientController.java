@@ -20,7 +20,4 @@ public class IngredientController {
     public String putIngredient (@RequestBody Ingredient ingredient){
         return "Рецепт успешно добавлен (ID: " + ingredientService.putIngredient(ingredient) + ")";
     }
-
-
-
 }

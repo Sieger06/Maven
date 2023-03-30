@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class firstController {
-
     @GetMapping()
     public String startPage (){
         return "Приложение запужено";
